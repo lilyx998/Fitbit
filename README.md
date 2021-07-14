@@ -1,4 +1,3 @@
-![colors](https://user-images.githubusercontent.com/34987475/125563056-2393c8b1-8555-4910-b9f3-7d16de50e46d.png)
 # Fitbit
 
 Welcome! We created this website for the 2019 MCWT Web Design Competition in response to the prompt: “Develop a website for a tech product or service – imaginary or real – that impacts the world in a positive way.”
