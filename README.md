@@ -21,7 +21,7 @@ Our website includes:
       - Consistent design across all pages: fonts, borders, color blocks
       - ![colors](https://user-images.githubusercontent.com/34987475/125563075-e5cad5dc-ae14-4b78-bcdc-9b3945048da0.png)
       
-  - Our own personal experiences, writing, interviews, and photographs
+  - Our own personal experiences, writing, interviews, and photos
 
 Thank you for checking our site out!
 ~ Abby and Lily
