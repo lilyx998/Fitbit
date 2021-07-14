@@ -24,5 +24,4 @@ Our website includes:
   - Our own personal experiences, writing, interviews, and photographs
 
 Thank you for checking our site out!
-- Abby and Lily
-
+~ Abby and Lily
