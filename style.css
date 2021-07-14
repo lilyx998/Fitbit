@@ -1,0 +1,319 @@
+/* Colors: white #FFFFFF, grey #3b413c, blue-grey #9db5b2, blue-white: #daf0ee, aqua: #94d1be */
+
+header{
+	padding-top: 20px;
+	padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 30px;
+  display: table;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sources a{
+  text-decoration: underline;
+}
+
+.sources a:visited{
+  color: purple; 
+}
+
+.sources a:hover{
+  color: #94D1BE;
+}
+
+h1{
+  color: #3B413C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family:'Montserrat', sans-serif; 
+  font-size: 16px;
+}
+hr {
+  border-top: 2px solid #93d1be;
+}
+
+header a:link {
+  text-decoration: none;
+  color: #3b413c;
+}
+
+header a:visited {
+  color: #3b413c;
+}
+
+.left-cell {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.middle-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: middle;
+}
+
+.middle-cell h1{
+  color: #3b413c;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.right-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding: 30px;
+}
+
+.right-cell i {
+  padding: 2px;
+  color:#3b413c;
+}
+
+.right-cell i:hover {
+  color:#93d1be;
+}
+
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: #3b413c;
+	z-index: 99;
+}
+
+.expand {
+	display: block !important; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #9db5b2;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #3b413c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #DAF0EE;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3B413C;}
+
+.show {display:block;}
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+#footer {
+  display: block;
+  width: auto;
+  margin-top: -200px;
+  clear:both;
+  background-color: #9DB5B2;
+  color:#3B413C;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3b413c;
+}
+
+p.footer {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.right {
+  float: left; 
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  margin-top: 25px;
+} 
+
+.right img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.about {
+  background-color:white;
+  padding: 30px;
+}
+
+.about-us {
+  text-align: left;
+}
+
+.first {
+  background-color: #93d1be;
+}
+
+.first:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .right {
+    width: 100%;
+  }
+}
+
+.mission {
+  position: static;
+  width: 95%;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+  margin-right: 20px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-size: 20px;
+    height: 100%;
+    display: table;
+}
+
+img{
+  height: auto;
+  width: auto;
+}
+
+.shop {
+  text-align: center;
+  height: 100px;
+  padding: 0px 0 35px 0px;
+  margin-bottom: 20px;
+}
+
+.interest{
+  border: 5px solid #93d1be;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.buy {
+  text-decoration: none;
+  background-color: #93d1be;
+  padding: 5px 10px 5px 10px;
+  color: #3b413c;
+}
+
+.buy:hover {
+  background-color: #3B413C;
+  color: #93d1be;
+}
+
+p.con {
+  text-align: center;
+  background-color: #93d1be;
+  font-size: 18px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+  margin: 50px;
+}
+
+table th { 
+  text-align: center;
+  background-color: #94d1be;
+  color: white;
+}
+
+table {
+  width: 95%;
+  font-size: 15px;
+  border: 1px solid #3B413C;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #9db5b2;
+}
+
+table a {
+  color: black;
+}
+
+table a:hover {
+  color: #9db5b2;
+  text-decoration: underline;
+}
+
+table a:visited {
+  color:#3b413c;
+}
